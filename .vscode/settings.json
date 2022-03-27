@@ -1,0 +1,14 @@
+{
+  "vetur.validation.template": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.format.enable": true, // 使用Eslint作为文件的一种格式规范
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // 格式规范由prettier改为eslint
+  }
+}
